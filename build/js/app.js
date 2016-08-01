@@ -64,6 +64,7 @@ $(document).ready(function() {
 
   $("#printed-title").text(newDiary.title);
   $("#printed-entry").text(newDiary.entry);
+  $("#printed-wordcount").text(newDiary.wordCount());
   });
 });
 
